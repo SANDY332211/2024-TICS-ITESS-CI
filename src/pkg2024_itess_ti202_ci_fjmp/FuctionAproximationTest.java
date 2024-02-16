@@ -12,7 +12,7 @@ package pkg2024_itess_ti202_ci_fjmp;
 public class FuctionAproximationTest {
    
     public static void main(String[] args){
-        FuctionAproximation1 fa = new FuctionAproximation1(0.0, 4.0,4);
+        FuctionAproximation1 fa = new FuctionAproximation1(1, 3,10 );
         fa. compute();
         System.out.println("area:"+ fa.getArea());
     }
